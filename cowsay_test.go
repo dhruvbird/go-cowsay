@@ -23,6 +23,9 @@ func TestCowsay(t *testing.T) {
 		"supercalifragilisticexpialidocious"))
 	fmt.Printf("%s\n", str)
 
+	str = Format(fmt.Sprint("Basic Cowsay in Golang!"))
+	fmt.Printf("%s\n", str)
+
 	// Test empty string
 	str = Format(fmt.Sprint(""))
 	fmt.Printf("%s\n", str)
